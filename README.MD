@@ -9,9 +9,9 @@ stored at the location `/usr/local/var/mongodb/`. But I changed the location to 
 4. To start mongodb, `mongod --dbpath /Users/rohith/workspace/mongodb-data/`
 5. To connect to it from CLI, run `mongo` on another tab once the above command is executed.
 6. To Shut down the `mongodb` server, do the following from the `mongo` shell.
-
->>>
+```
 use admin
 db.shutdownServer()
+```
 
 P.S - Use Robo3T installed on mac to browse the databases instead of CLI.... easier that way.
